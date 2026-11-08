@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 main {
@@ -46,8 +46,11 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 300px;
     height: auto;
+    border: 1px solid #000;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
