@@ -42,6 +42,10 @@ article {
     padding: 8px;
 }
 
+nav a {
+    background-color: var(--secondary-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -70,9 +74,10 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: 20px right: 20px;
+    bottom: 20px;
+    right: 20px;
     padding: 1rem;
-    background-color: rgba(225, 225, 225, .8)
+    background-color: rgba(225, 225, 225, .8);
 }
 
 .hero article img {
