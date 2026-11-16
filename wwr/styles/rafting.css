@@ -73,7 +73,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     bottom: 20px;
     right: 20px;
     padding: 1rem;
