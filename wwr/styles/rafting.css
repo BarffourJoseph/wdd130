@@ -13,10 +13,11 @@
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
     padding: 1rem;
     background-color: var(--primary-color);
+    background-color: #1f4e5f;
     color: var(--accent2-color);
 }
 

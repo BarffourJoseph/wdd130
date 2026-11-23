@@ -4,6 +4,9 @@ body {
 }
 
 .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
@@ -15,12 +18,12 @@ body {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
-    background-color: #bbb;
+    background-color: yellow;
     color: #333;
 }
 
 .item1 {
-    min-height: 100px;
+    min-height: 200px;
 }
 
 .item2 {
@@ -28,5 +31,5 @@ body {
 }
 
 .item3 {
-    min-height: 300px;
+    min-height: 200px;
 }
