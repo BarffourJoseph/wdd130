@@ -15,12 +15,18 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
 
+header img {
+    height: 80px;
+    width: auto;
+}
+
 body {
+    margin: 0;
     font-family: var(--body-font);
     color: var(--accent1-color);
 
